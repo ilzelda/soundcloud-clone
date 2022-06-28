@@ -1,0 +1,159 @@
+:root{
+    --mainwidth : 850px;
+    --footerwidth: 360px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 100;
+}
+
+body{
+    margin : 0;
+    background-color: #f2f2f2;
+}
+
+nav {
+    background-color : #333;
+    color: white;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    list-style : none;
+    margin : 0px;
+    width: calc(var(--mainwidth) + var(--footerwidth));
+    height: 46px;
+    padding-left : 0;
+    position : relative; 
+    display : flex; 
+   
+    
+}
+
+li {
+    margin : 10px;
+}
+
+.subpage{
+    margin: 0px;
+    display:flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#soundcloud{
+    background-color : black;
+    font : bold;
+}
+
+.sc_icon{
+    height:46px;
+}
+
+#search {
+    margin : 8px 10px 8px 10px;
+    width : 220px;
+    border-radius: 7px;
+}
+
+#sign_in {
+    padding-top : 4px;
+    padding-bottom : 4px;
+    padding-left : 6px;
+    padding-right : 6px;
+    border : 1px solid white;
+    border-radius : 5px;
+}
+
+#create_account{
+    background-color: #f50;
+    border-radius : 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    border-right: 1px solid;
+    margin-right: 0px;
+    width: var(--mainwidth);
+    background-color: #fff;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    border-bottom: 1px solid #f2f2f2 ;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.list_area{
+    list-style : none;
+}
+
+.charts{
+    margin-left: 0px;
+}
+
+.description{
+    margin-top: 5px;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+.genres{
+    display: flex;
+    list-style: none;
+    padding-bottom: 42px;
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 34px;
+}
+
+.genre{
+    margin: 0px;
+    padding-right: 20px;
+}
+
+.charticon{
+    width: 170px;
+    height: 170px;
+}
+
+.genre_name{
+    font-size: 14px;
+}
+
+.Top_50{
+    font-size: 12px;
+}
+
+.footer{
+    background-color: #fff;
+    width: 360px;
+}
+
+h3{
+    border-bottom: 1px solid #f2f2f2;
+}
+
+#appstore{
+    width: 130px;
+    height: 40px;
+    padding-right: 8px;
+}
+
+#googleplay{
+    width: 130px;
+    height: 40px;
+}
